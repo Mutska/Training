@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+
+
+g++ -std=c++11 -02 -Wall test.cpp -o test
+
+--lines:
+getline(cin,s)
+
+--unknown data in loop:
+while(cin >> x){
+
+}
+
+--files:
+freopen("input.txt","r",stdin);
+freopen("input.txt","w",stdout);
+
+--larger numbers:
+long long x = 1234LL;
+long long b = (long long)a*a;
+ 
