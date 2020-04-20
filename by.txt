@@ -1,10 +1,5 @@
-#include <iostream>
-#include <algorithm>
-#include <vector>
-
-using namespace std;
-
-int main(){
+ Biblioteca de algorithm
+ copy_n con ejemplo
 
   vector<int> positive = {1,2,3,4,5};	
   vector<int> at_least = {-1,-2,-3,-4,5};	
@@ -19,4 +14,3 @@ int main(){
 	if(none_of(none.begin(), none.end(), [](int i){return i>0;}))
 		cout << "No one is positive" << endl;
 	return 0;
-}
