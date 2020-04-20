@@ -1,5 +1,5 @@
+//Light OJ problem
 #include <iostream>
-//Light OJ
 using namespace std;
 
 long long gcd(long long a, long long b, long long &x, long long &y) {

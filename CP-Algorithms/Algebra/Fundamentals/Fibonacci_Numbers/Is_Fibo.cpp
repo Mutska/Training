@@ -1,7 +1,7 @@
+//hackerrank problem
 #include <iostream>
 #include <cmath>
 using namespace std;
-//hackerrank
 bool isPerfectSquare(long double x) 
 {   
   long double sr = sqrt(x); 

@@ -1,6 +1,5 @@
-
+//Codeforces problem
 #include <iostream>
-//Codeforces
 using namespace std;
 
 int gcd(int a, int b, int &x, int &y) {
