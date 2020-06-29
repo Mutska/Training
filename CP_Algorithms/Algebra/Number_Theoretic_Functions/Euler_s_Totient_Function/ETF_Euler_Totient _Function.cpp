@@ -1,5 +1,5 @@
+//Sphere Online Judge Problem
 #include <iostream>
-
 using namespace std;
 
 int phi(int n) {
