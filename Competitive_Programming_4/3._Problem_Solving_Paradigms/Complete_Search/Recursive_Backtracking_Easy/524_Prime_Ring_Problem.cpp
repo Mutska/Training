@@ -14,7 +14,8 @@ bool is_prime(int posibble_prime){
     return false;
 }
 /*Funcion auxiliar que nos indica si el elemento actual
-  puede ser considerado como parte de la solucion */
+  puede ser considerado como parte de la solucion 
+  (verifica que las restricciones se cumplan*/
 bool canAdd(int n) { 
     for(auto &s: solutions)
         if(s == n) return false;
