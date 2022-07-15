@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
 
-    string s;
+	string s;
     cin >> s;
     s += "$";
     int n = s.size();
@@ -27,7 +27,7 @@ int main(){
     }
     //transitions k -> k + 1
     int k = 0;
-    while((1 << k) < n){
+	while((1 << k) < n){
         //k -> k + 1
         vector<pair<pair<int,int>, int>> a(n);
         for(int i = 0; i < n; ++i){
@@ -45,17 +45,12 @@ int main(){
         }
         ++k;
     }
-   //for(int i = 0; i < n; ++i){
-   //    cout << p[i] << " " << s.substr(p[i], n - p[i]) <<  "\n";
-   //}
-   for(int i = 0; i < n; ++i){
-       cout << p[i] << " ";
-   }
-   cout << "\n";
-
-
-
-
-
-    return 0;
+	//for(int i = 0; i < n; ++i){
+   	//    cout << p[i] << " " << s.substr(p[i], n - p[i]) <<  "\n";
+   	//}
+   	for(int i = 0; i < n; ++i){
+   	    cout << p[i] << " ";
+   	}
+	cout << "\n";
+	return 0;
 }
